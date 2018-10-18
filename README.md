@@ -1,4 +1,4 @@
-## libdiffuzz: poor man's Memory Sanitizer
+## C99 implementation of libdiffuzz, the poor man's Memory Sanitizer
 
 [Libdiffuzz](https://github.com/Shnatsel/libdiffuzz) a drop-in replacement for OS memory allocator that can be used to detect uses of uninitialized memory. It is designed to be used in case [Memory Sanitizer](https://clang.llvm.org/docs/MemorySanitizer.html) is not available for some reason. See [libdiffuzz README](https://github.com/Shnatsel/libdiffuzz) for information on usage and how it works.
 
