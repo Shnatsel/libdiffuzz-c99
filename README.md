@@ -4,7 +4,7 @@
 
 This is a portable C99 implementation that can be used on really obscure CPUs or operating systems where Rust compiler is not available (e.g. OpenRISC or Haiku). It is portable in the sense that the code is so trivial and dependency-free that you can easily port it, not in the sense that it will work as-is anywhere, which is notoriously hard to do in C.
 
-Note that since the counter access is not atomic, uninitialized reads in multi-threaded programs may not be reliably detected.
+Note in this implementation the counter access is not atomic, so uninitialized reads in multi-threaded programs may not be reliably detected.
 
 ## Why rewrite in Rust?
 
