@@ -16,4 +16,4 @@ By contrast, in Rust I can write a program once and expect it to work everywhere
 
 ## See also
 
-[libdislocator](https://github.com/mirrorer/afl/tree/master/libdislocator), poor man's [Address Sanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) that also works with black-box binaries. This implementation of libdiffuzz is based on libdislocator code.
+[libdislocator](https://github.com/mirrorer/afl/tree/master/libdislocator), poor man's [Address Sanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) that also works with black-box binaries. libdiffuzz-c99 is based on libdislocator code.
